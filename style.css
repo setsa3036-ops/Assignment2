@@ -1,13 +1,41 @@
 body{
-    background-color: aqua;
+    background-color: rgba(187, 105, 76, 0.349);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #headerTable{
     width: 100%;
 }
 .logo{
-    width: 210px;
+    width: 100%;
 }
 nav{
     padding-right: 34px;
     margin-left: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav ul :hover{
+    color: white;
+    padding: 5px;
+    background-color: rgb(209, 176, 202);
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgba(95, 26, 16, 0.253);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
