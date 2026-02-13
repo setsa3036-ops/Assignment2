@@ -4,9 +4,13 @@ body{
 }
 #headerTable{
     width: 100%;
+    background-color: rosybrown;
+    border-collapse: collapse;
+    border: 2px solid black;
 }
 .logo{
-    width: 100%;
+    width: 95%;
+    padding: 10px;
 }
 nav{
     padding-right: 34px;
