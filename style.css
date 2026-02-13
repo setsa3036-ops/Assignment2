@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgba(187, 105, 76, 0.349);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #f0f0f0, #d4c8b8);
 }
 #headerTable{
     width: 100%;
@@ -33,7 +42,32 @@ nav ul :hover{
     background-color: rgb(209, 176, 202);
     border-radius: 5px;
 }
+.wrapper{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
 
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h1{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.card p{
+    color: black;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
 footer{
     background-color: rgba(95, 26, 16, 0.253);
     color: black;
